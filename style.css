@@ -1,14 +1,49 @@
-*{
-  box-sizing: border-box;
-  padding:0;
-  margin: 0;
+/*HEADER*/
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f3f5;
+
+  height:5.3rem;
+  padding: 0 4.5rem;
 }
 
-body{
-  font-family: 'Rubik', sans-serif;
-  line-height: 1;
-  font-weight: 400;
-  color: #212529;
+.logo{
+  font-size: 2rem;  
+  font-weight: 700;
+  letter-spacing:1.9px;
+  text-transform: uppercase;
+}
+
+.main-nav-list{
+  list-style: none;
+  display: flex;
+  align-items: center;  
+  gap: 2.5rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.3rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: blue;
+} 
+
+.main-nav-link.nav-switch:link,
+.main-nav-link.nav-switch:visited {
+  padding: 0.6rem 1.2rem;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #212529;
 }
 
 /*HERO*/
@@ -60,4 +95,13 @@ body{
   font-size: 1.5rem;
   padding: 0.8rem 1.6rem;
   transition:  background-color 1s;
+}
+
+
+
+.btn--contact:hover,
+.btn--contact:active {
+  background-color:#f8f9fa;
+  color:#212529;
+  border:1px solid #212529;
 }

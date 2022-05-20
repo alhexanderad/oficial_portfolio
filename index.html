@@ -11,6 +11,10 @@
     rel="stylesheet">
   <link rel="stylesheet" href="general.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="queries.css">
+
+  <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
   <header class="header">
@@ -24,10 +28,15 @@
         <li><a href="" class="main-nav-link nav-switch">Nig/Day</a></li>
       </ul>
     </nav>
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
   </header>
 
   <div class="section-hero">
     <div class="hero">
+
       <div class="hero-img-box">
         <img src="image/orginal.jpg" class="hero-img">
       </div>
@@ -39,13 +48,14 @@
         <p class="hero-description">
           Desarrollador de Apps
         </p>
-        <a href="#" class="btn btn--contact">Conact</a>
+        <div class="btn">
+          <a href="#" class="btn--contact">Conact</a>
+        </div>
+
       </div>
 
     </div>
   </div>
-
-
 
   <section class="section-projects" id="projects">
     <div class="container grid grid--2-cols">
@@ -114,9 +124,7 @@
   </section> -->
   <section class="section-experiments" id="experiments">
     <!-- <h1 class="heading">Experiments</h1> -->
-    <div class="container grid grid--4-cols">
-      
-
+    <div class="container grid grid--4-cols exp-grid">
         <div class="exp-box">
           <div class="exp-img">
             <img src="./image/portfolio-4.jpg" class="exp-port">

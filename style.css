@@ -5,20 +5,18 @@
   justify-content: space-between;
   background-color: #f1f3f5;
 
-  height:5.3rem;
+  height:8rem;
   padding: 0 4.5rem;
+  position: relative;
 
-  position: fixed;
-  width: 100%;
-  top:0;
-  left:0;
 }
 
 .logo{
-  font-size: 2rem;  
+  font-size: 3.5rem;  
   font-weight: 700;
   letter-spacing:1.9px;
   text-transform: uppercase;
+  color: #000;
 }
 
 .main-nav-list{
@@ -34,7 +32,7 @@
   text-decoration: none;
   color: #333;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 2.2rem;
   transition: all 0.3s;
 }
 
@@ -51,6 +49,24 @@
   background-color: #212529;
 }
 
+/*MOBILE ICON*/
+.btn-mobile-nav{
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display:none;
+}
+
+.icon-mobile-nav{
+  height:7.5rem;
+  width:7.5rem;
+}
+
+.icon-mobile-nav[name="close-outline"]{
+  display: none;
+}
+
 /*HERO*/
 .section-hero{
   /*background-color:white;*/
@@ -58,8 +74,9 @@
 }
 
 .hero{
-  max-width:120rem;
-  /*margin:0 auto;
+
+  /*max-width:120rem;
+  margin:0 auto;
   padding:0 1rem; */
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -81,7 +98,7 @@
 }
 
 .hero-img{
-  max-width: 100%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }
@@ -91,8 +108,8 @@
   margin-bottom: 2.4rem;
 }
 
-.btn:link, 
-.btn:visited{
+.btn .btn--contact:link, 
+.btn .btn--contact:visited{
   display:inline-block;
   text-decoration: none;
   background-color:#212529;
@@ -104,8 +121,8 @@
 
 
 
-.btn--contact:hover,
-.btn--contact:active {
+.btn .btn--contact:hover,
+.btn .btn--contact:active {
   background-color:#f8f9fa;
   color:#212529;
   border:1px solid #212529;
@@ -163,9 +180,8 @@
   filter:grayscale(1);
   opacity: 50%;
 }
+
 /*EXPERIMENTS*/
-
-
 .exp-img{
   position:relative;
   width: 100%;
@@ -217,8 +233,9 @@
   display: flex;
   justify-content:center;
   align-items: center;
-  /* background-color: #999;
-  color: #000; */
+
+  background-color: #999;
+  /*color: #000; */
 }
 
 

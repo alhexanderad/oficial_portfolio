@@ -8,6 +8,10 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 85px;
+  /*font-size: 10px; 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting*/
+  font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -16,13 +20,15 @@ body {
   font-weight: 400;
   background-color: #000;
   color: #fff;
+  overflow-x: hidden;
 }
 
 .container {
-  /*1140px*/
-  max-width: 120rem;
+  /*1920px * 16 = 120*/
+  /*with:auto; or
+  max-width:120rem*/
   /* padding: 0 3.2rem; 
-  margin: 0 auto;*/
+  margin: 0 auto; */
 }
 
 .grid {

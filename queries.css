@@ -109,6 +109,13 @@ Insted, 1rem = 1em = 16px */
 @media(max-width:34em) {
 
 
+  .hero-img-box {
+    height: 35vh;
+  }
+  .hero-text-box{
+    height:25vh;
+  }
+
   .grid--2-cols,
   .grid--3-cols,
   .grid--4-cols{
@@ -120,5 +127,13 @@ Insted, 1rem = 1em = 16px */
   }
   .step-img-box:nth-child(6) {
     grid-row: 5;
+  }
+
+  .step-img-box {
+    height: 400px;
+  }
+
+  .exp-img{
+    height:380px;
   }
 }

@@ -51,7 +51,8 @@ body {
 }
 
 .heading-tertiary {
-  font-size: 2.1rem;
-  line-height: 1;
+  font-size: 3.1rem;
+  line-height: 1.4;
   margin-bottom: 1.6rem;
+  text-transform: uppercase;
 }

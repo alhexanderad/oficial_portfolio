@@ -2,7 +2,9 @@
 Insted, 1rem = 1em = 16px */
 /**BELOW 1344px (smller desktop)**/
 @media(max-width:84em){
-
+.step-img-box {
+    height: 90vh;
+  }
 }
 
 /**BELOW 1200px (Landscape Tablest)**/
@@ -10,6 +12,7 @@ Insted, 1rem = 1em = 16px */
   html{
     font-size:9px;
   }
+
 }
 
 /**BELOW 944px (Tablest)**/
@@ -19,13 +22,19 @@ Insted, 1rem = 1em = 16px */
     font-size: 50%;
   }
 
+  .header {
+    padding: 0 2rem;
+  }
+
   .hero{
     grid-template-columns: 1fr;
   }
 
+
+
   .hero-img-box{
-    height: 45vh;
-  }
+    height: 85vh;
+  } 
   .hero-text-box {
     height: 55vh;
     display: flex;
@@ -33,7 +42,7 @@ Insted, 1rem = 1em = 16px */
     justify-content: center;
     align-items: center;
     padding-bottom: 2.9rem;
-  }
+  } 
   .grid--4-cols{
     grid-template-columns: repeat(2, 1fr);
   }
@@ -47,7 +56,7 @@ Insted, 1rem = 1em = 16px */
   /*MOBILE NAVIGATION*/
 
   .header{
-    height: 12rem;
+    height: 8rem;
   }
   .btn-mobile-nav{
     display: block;
@@ -102,18 +111,54 @@ Insted, 1rem = 1em = 16px */
 }
 /*BELOW 704px(Smaller tablets)*/
 @media(max-width:44em) {
-  
+  /* .step-img-box {
+    height: 90vh;
+  } */
+
+  .step-text-box {
+    margin: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .step-description{
+    font-size: 16px;
+    padding: 30px 0;
+    line-height: 1.8;
+    font-weight: 200;
+  }
+
+  .step-link a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .exp-content
+  {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .exp-link {
+    font-size: 20px;
+  }
+  .footer-credit{
+    font-size: 18px;
+    font-weight: 100;
+    padding:12px 0;
+  }
 }
 
 /*BELOW 544px(Phones)*/
 @media(max-width:34em) {
 
-
   .hero-img-box {
-    height: 35vh;
+    height: 45vh;
   }
   .hero-text-box{
-    height:25vh;
+    height:50vh;
   }
 
   .grid--2-cols,
@@ -129,11 +174,25 @@ Insted, 1rem = 1em = 16px */
     grid-row: 5;
   }
 
-  .step-img-box {
-    height: 400px;
-  }
-
   .exp-img{
     height:380px;
+  }
+
+  .step-img-box{
+    height: 300px;
+  }
+  .step-text-box{
+    /*height:300px;*/
+    
+    margin:20px 30px;
+  }
+
+  .heading-tertiary{
+    text-decoration: uppercase;
+    font-size:28px;
+    }
+  .step-description{
+    font-size:15px;
+    line-height: 1.8;
   }
 }

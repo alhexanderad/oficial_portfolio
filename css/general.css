@@ -6,12 +6,12 @@
 
 html {
   overflow-x: hidden;
-  scroll-behavior: smooth;
-  scroll-padding-top: 85px;
+  /* scroll-behavior: smooth;
+  scroll-padding-top: 85px; */
   /*font-size: 10px; 10px / 16px = 0.625 = 62.5% */
   /* Percentage of user's browser font-size setting*/
   font-size: 62.5%;
-  overflow-x: hidden;
+
 }
 
 body {
